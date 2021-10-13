@@ -1,6 +1,6 @@
 import React from "react";
 import "./routesCss/About.css";
-import file from "../components/componentsData/imgFiles/resume1.jpg";
+import file from "../components/componentsData/imgFiles/Timothy_Jackreece_Resume.pdf";
 
 const About = () => {
 	return (
