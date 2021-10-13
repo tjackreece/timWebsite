@@ -1,0 +1,376 @@
+.navbarContainer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 90vw;
+	background-color: snow;
+	margin: 0.5rem auto;
+	height: 100%;
+}
+.navLogo {
+	font-size: 1rem;
+	width: 33%;
+	text-align: center;
+}
+.navLogo h1 {
+	color: #ff9494;
+	text-shadow: 1px 1px 1px #333;
+	font-size: 2rem;
+}
+.navLogo h1:hover {
+	color: #333;
+	text-shadow: 1px 1px 1px#ff8484;
+}
+.navMidHeader {
+	width: 33%;
+	text-align: center;
+}
+.navMidHeader h1 {
+	font-size: 2rem;
+	color: #333;
+}
+.navBar {
+	width: 33%;
+	margin: auto auto;
+	text-align: center;
+
+	/* background-color: #333; */
+	overflow: hidden;
+}
+.navBar a {
+	font-size: 1.5rem;
+	margin-left: 1rem;
+	text-decoration: none;
+	color: #333;
+
+	float: left;
+	display: block;
+	/* color: #f2f2f2; */
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	/* font-size: 17px; */
+	border-bottom: 3px solid transparent;
+}
+.navBar a:hover {
+	color: #ff8484;
+	border-bottom: 3px solid red;
+}
+.navBar a.active {
+	border-bottom: 3px solid red;
+}
+
+@media screen and (max-width: 1024px) {
+	.navbarContainer {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		align-items: center;
+		width: 100vw;
+		background-color: snow;
+		margin: 0.5rem auto;
+		height: 100%;
+	}
+	.navLogo {
+		font-size: 1rem;
+		width: 33.3%;
+		text-align: center;
+	}
+	.navLogo h1 {
+		color: #ff9494;
+		text-shadow: 1px 1px 1px #333;
+		font-size: 1.7rem;
+	}
+	.navLogo h1:hover {
+		color: #333;
+		text-shadow: 1px 1px 1px#ff8484;
+	}
+	.navMidHeader {
+		width: 33.3%;
+		text-align: center;
+	}
+	.navMidHeader h1 {
+		font-size: 1.7rem;
+		color: #333;
+	}
+	.navBar {
+		width: 33.3%;
+		margin: auto;
+		text-align: center;
+		/* background-color: #333; */
+		overflow: hidden;
+	}
+	.navBar a {
+		font-size: 1.3rem;
+		margin-left: 0rem;
+		text-decoration: none;
+		color: #333;
+		float: left;
+		display: block;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		border-bottom: 3px solid transparent;
+	}
+	.navBar a:hover {
+		color: #ff8484;
+		border-bottom: 3px solid red;
+	}
+	.navBar a.active {
+		border-bottom: 3px solid red;
+	}
+}
+@media screen and (max-width: 768px) {
+	.navbarContainer {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		align-items: center;
+		width: 100vw;
+		background-color: snow;
+		margin: auto;
+		height: 100%;
+	}
+	.navLogo {
+		font-size: 1rem;
+		width: 33%;
+		text-align: center;
+	}
+	.navLogo h1 {
+		color: #ff9494;
+		text-shadow: 1px 1px 1px #333;
+		font-size: 1.4rem;
+	}
+	.navLogo h1:hover {
+		color: #333;
+		text-shadow: 1px 1px 1px#ff8484;
+	}
+	.navMidHeader {
+		width: 33%;
+		text-align: center;
+	}
+	.navMidHeader h1 {
+		font-size: 1.5rem;
+		color: #333;
+	}
+	.navBar {
+		width: 33%;
+		margin: auto;
+		text-align: center;
+		/* background-color: #333; */
+		overflow: hidden;
+	}
+	.navBar a {
+		font-size: 1.1rem;
+		margin-left: 0rem;
+		text-decoration: none;
+		color: #333;
+		float: left;
+		display: block;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		border-bottom: 3px solid transparent;
+	}
+	.navBar a:hover {
+		color: #ff8484;
+		border-bottom: 3px solid red;
+	}
+	.navBar a.active {
+		border-bottom: 3px solid red;
+	}
+}
+@media screen and (max-width: 425px) {
+	.navbarContainer {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		align-items: center;
+		width: 100vw;
+		background-color: snow;
+		margin: auto;
+		height: 100%;
+	}
+	.navLogo {
+		font-size: 1rem;
+		width: 33%;
+		text-align: center;
+	}
+	.navLogo h1 {
+		color: #ff9494;
+		text-shadow: 1px 1px 1px #333;
+		font-size: 1.7rem;
+	}
+	.navLogo h1:hover {
+		color: #333;
+		text-shadow: 1px 1px 1px#ff8484;
+	}
+	.navMidHeader {
+		width: 33%;
+		text-align: center;
+	}
+	.navMidHeader h1 {
+		font-size: 1.7rem;
+		color: #333;
+	}
+	.navBar {
+		width: 33%;
+		margin: auto;
+		text-align: center;
+		/* background-color: #333; */
+		overflow: hidden;
+	}
+	.navBar a {
+		font-size: 1.3rem;
+		margin-left: 0rem;
+		text-decoration: none;
+		color: #333;
+		float: left;
+		display: block;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		border-bottom: 3px solid transparent;
+	}
+	.navBar a:hover {
+		color: #ff8484;
+		border-bottom: 3px solid red;
+	}
+	.navBar a.active {
+		border-bottom: 3px solid red;
+	}
+}
+@media screen and (max-width: 768px) {
+	.navbarContainer {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
+		width: 100vw;
+		background-color: snow;
+		margin: auto;
+		height: 100%;
+	}
+	.navLogo {
+		font-size: 1rem;
+		width: 100%;
+		text-align: center;
+		margin: 1rem auto;
+	}
+	.navLogo h1 {
+		color: #ff9494;
+		text-shadow: 1px 1px 1px #333;
+		font-size: 1.4rem;
+	}
+	.navLogo h1:hover {
+		color: #333;
+		text-shadow: 1px 1px 1px#ff8484;
+	}
+	.navMidHeader {
+		display: none;
+		width: 33%;
+		text-align: center;
+	}
+	.navMidHeader h1 {
+		font-size: 1.5rem;
+		color: #333;
+	}
+	.navBar {
+		width: 100%;
+		margin: 0.5rem auto;
+		text-align: center;
+
+		/* background-color: #333; */
+		overflow: hidden;
+		display: flex;
+	}
+	.navBar a {
+		font-size: 1.2rem;
+		margin: auto;
+		text-decoration: none;
+		color: #ff8484;
+		height: auto;
+		display: block;
+		text-align: center;
+		font-weight: bold;
+		text-decoration: none;
+		width: 33.3%;
+	}
+	.navBar a:hover {
+		color: #ff8484;
+		border-bottom: 3px solid red;
+	}
+	.navBar a.active {
+		border-bottom: 3px solid red;
+	}
+}
+@media screen and (max-width: 425px) {
+	.navbarContainer {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
+		width: 100vw;
+		background-color: snow;
+		margin: auto;
+		height: 100%;
+	}
+	.navLogo {
+		display: none;
+		font-size: 1rem;
+		width: 100%;
+		text-align: center;
+		margin: 1rem auto;
+	}
+	.navLogo h1 {
+		color: #ff9494;
+		text-shadow: 1px 1px 1px #333;
+		font-size: 1.4rem;
+	}
+	.navLogo h1:hover {
+		color: #333;
+		text-shadow: 1px 1px 1px#ff8484;
+	}
+	.navMidHeader {
+		display: none;
+		width: 33%;
+		text-align: center;
+	}
+	.navMidHeader h1 {
+		font-size: 1.5rem;
+		color: #333;
+	}
+	.navBar {
+		width: 100%;
+		margin: 0.5rem auto;
+		text-align: center;
+
+		/* background-color: #333; */
+		overflow: hidden;
+		display: flex;
+	}
+	.navBar a {
+		font-size: 1.2rem;
+		margin: auto;
+		text-decoration: none;
+		color: #ff8484;
+		height: auto;
+		display: block;
+		text-align: center;
+		font-weight: bold;
+		text-decoration: none;
+		width: 33.3%;
+	}
+	.navBar a:hover {
+		color: #ff8484;
+		border-bottom: 3px solid red;
+	}
+	.navBar a.active {
+		border-bottom: 3px solid red;
+	}
+}
+@media screen and (max-width: 375px) {
+}
+@media screen and (max-width: 320px) {
+}
