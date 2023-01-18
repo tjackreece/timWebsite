@@ -35,7 +35,6 @@
   text-align: center;
   margin: auto;
   font-size: 6.5rem;
-  opacity: 100%;
 
   text-shadow: 5px 5px 5px #333;
 
@@ -46,12 +45,11 @@
   text-align: center;
   text-shadow: 4px 4px 4px #333;
   font-size: 2.5rem;
-  opacity: 100%;
+
   color: #ff8484;
   margin-bottom: 1rem;
 }
 .homeBannerText p:hover {
-  opacity: 100%;
   color: white;
 }
 #pTag2 {
@@ -70,7 +68,7 @@
   margin: 0.5rem auto;
   color: white;
   background-color: #333;
-  opacity: 100%;
+
   font-size: 1.2rem;
   border-radius: 10px;
   padding: 10px 5px;
@@ -125,11 +123,11 @@
     display: flex;
   }
   .homeBanner {
-    background-image: url(https://images.unsplash.com/photo-1522252234503-e356532cafd5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1525&q=80);
+    background-image: url("../../components/componentsData/imgFiles/background.png");
+
     background-color: snow;
 
     height: 100%;
-    opacity: 80%;
     box-shadow: 5px 5px 5px grey;
     margin: 0 auto;
     width: 100%;
@@ -144,7 +142,6 @@
     text-align: center;
     margin: auto;
     font-size: 5.5rem;
-    opacity: 100%;
 
     text-shadow: 5px 5px 5px #333;
 
@@ -155,12 +152,11 @@
     text-align: center;
     text-shadow: 4px 4px 4px #333;
     font-size: 2rem;
-    opacity: 100%;
+
     color: #ff8484;
     margin-bottom: 1rem;
   }
   .homeBannerText p:hover {
-    opacity: 100%;
     color: white;
   }
   #pTag2 {
@@ -171,7 +167,7 @@
     margin: auto auto;
     color: white;
     background-color: #333;
-    opacity: 100%;
+
     font-size: 1.2rem;
     border-radius: 10px;
     padding: 5px;
@@ -227,13 +223,14 @@
     display: flex;
   }
   .homeBanner {
-    background-image: url(https://images.unsplash.com/photo-1522252234503-e356532cafd5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1525&q=80);
+    background-image: url("../../components/componentsData/imgFiles/background.png");
+
     background-color: snow;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 65vh;
-    opacity: 80%;
+
     box-shadow: 5px 5px 5px grey;
     margin: 0 auto;
     width: 90vw;
@@ -247,7 +244,6 @@
     text-align: center;
     margin: 8.5rem auto 0.5rem auto;
     font-size: 4.5rem;
-    opacity: 100%;
 
     text-shadow: 5px 5px 5px #333;
 
@@ -258,12 +254,11 @@
     text-align: center;
     text-shadow: 4px 4px 4px #333;
     font-size: 2.3rem;
-    opacity: 100%;
+
     color: #ff8484;
     margin-bottom: 1rem;
   }
   .homeBannerText p:hover {
-    opacity: 100%;
     color: white;
   }
   #pTag2 {
@@ -274,7 +269,7 @@
     margin: auto auto;
     color: white;
     background-color: #333;
-    opacity: 100%;
+
     font-size: 1.2rem;
     border-radius: 10px;
     padding: 5px;
@@ -337,12 +332,13 @@
     display: flex;
   }
   .homeBanner {
-    background-image: url(https://images.unsplash.com/photo-1522252234503-e356532cafd5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1525&q=80);
+    background-image: url("../../components/componentsData/imgFiles/background.png");
+
     background-color: snow;
     background-position: center;
     background-size: contain;
     height: 100%;
-    opacity: 80%;
+
     box-shadow: 0px 0px 0px grey;
     margin: 0 auto;
     width: 100%;
@@ -357,7 +353,6 @@
     text-align: center;
     margin: auto;
     font-size: 3rem;
-    opacity: 100%;
 
     text-shadow: 5px 5px 5px #333;
 
@@ -368,12 +363,11 @@
     text-align: center;
     text-shadow: 4px 4px 4px #333;
     font-size: 1.5rem;
-    opacity: 100%;
+
     color: #ff8484;
     margin-bottom: 1rem;
   }
   .homeBannerText p:hover {
-    opacity: 100%;
     color: white;
   }
   #pTag2 {
@@ -384,7 +378,7 @@
     margin: auto auto;
     color: white;
     background-color: #333;
-    opacity: 100%;
+
     font-size: 1rem;
     border-radius: 10px;
     padding: 5px;
@@ -446,12 +440,12 @@
     display: flex;
   }
   .homeBanner {
-    background-image: url(https://images.unsplash.com/photo-1522252234503-e356532cafd5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1525&q=80);
+    background-image: url("../../components/componentsData/imgFiles/background.png");
+
     background-color: snow;
     background-position: center;
     background-size: contain;
     height: 100%;
-    opacity: 80%;
     box-shadow: 0px 0px 0px grey;
     margin: 0 auto;
     width: 100%;
@@ -466,7 +460,6 @@
     text-align: center;
     margin: auto;
     font-size: 3rem;
-    opacity: 100%;
 
     text-shadow: 5px 5px 5px #333;
 
@@ -477,12 +470,11 @@
     text-align: center;
     text-shadow: 4px 4px 4px #333;
     font-size: 1.5rem;
-    opacity: 100%;
+
     color: #ff8484;
     margin-bottom: 1rem;
   }
   .homeBannerText p:hover {
-    opacity: 100%;
     color: white;
   }
   #pTag2 {
@@ -493,7 +485,7 @@
     margin: auto auto;
     color: white;
     background-color: #333;
-    opacity: 100%;
+
     font-size: 1rem;
     border-radius: 10px;
     padding: 5px;
@@ -554,12 +546,13 @@
     display: flex;
   }
   .homeBanner {
-    background-image: url(https://images.unsplash.com/photo-1522252234503-e356532cafd5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1525&q=80);
+    background-image: url("../../components/componentsData/imgFiles/background.png");
+
     background-color: snow;
     background-position: center;
     background-size: cover;
     height: 100%;
-    opacity: 80%;
+
     box-shadow: 5px 5px 5px grey;
     margin: 0 auto;
     width: 100%;
@@ -576,7 +569,7 @@
     text-align: center;
     margin: auto;
     font-size: 2.5rem;
-    opacity: 100%;
+
     text-shadow: 3px 3px 3px black;
     color: #ffffff;
     /* background-color: red; */
@@ -586,12 +579,11 @@
     text-align: center;
     text-shadow: 3px 3px 3px black;
     font-size: 1.2rem;
-    opacity: 100%;
+
     color: #ff8484;
     margin: 0.5rem auto;
   }
   .homeBannerText p:hover {
-    opacity: 100%;
     color: white;
   }
   #pTag2 {
@@ -602,7 +594,7 @@
     margin: auto auto;
     color: white;
     background-color: #333;
-    opacity: 100%;
+
     font-size: 0.8rem;
     border-radius: 10px;
     padding: 5px;
