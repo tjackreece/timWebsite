@@ -5,8 +5,8 @@ import rsn from "./imgFiles/rsn.png";
 import sitc from "./imgFiles/sitc.jpeg";
 import MIKE from "./imgFiles/Mike_Hiner_Amida_CTO_Recommendation_letter.pdf";
 import ERIC from "./imgFiles/Eric_West_Amida_Lead_Dev_Recommendation_letter.pdf";
-import MIKE_Thumbnail from "./imgFiles/MikeHiner.jpg";
-import ERIC_Thumbnail from "./imgFiles/EricWest.jpg";
+import MIKE_Thumbnail from "./imgFiles/MikeHiner.png";
+import ERIC_Thumbnail from "./imgFiles/EricWest.png";
 
 export const Websites = {
   name: "Timothy Jackreece",
