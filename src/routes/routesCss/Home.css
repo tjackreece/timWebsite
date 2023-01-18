@@ -16,7 +16,7 @@
 }
 
 .homeBanner {
-  background-image: url(../../components/componentsData/imgFiles/background.png);
+  background-image: url("../../components/componentsData/imgFiles/background.png");
   background-size: cover;
   background-color: snow;
 
