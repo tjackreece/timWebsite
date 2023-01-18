@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.246eb5d8.chunk.css",
+    "main.css": "/static/css/main.1c630578.chunk.css",
     "main.js": "/static/js/main.427332f1.chunk.js",
     "main.js.map": "/static/js/main.427332f1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.cb903f2f.js",
@@ -8,7 +8,7 @@
     "static/js/2.7d2973ff.chunk.js": "/static/js/2.7d2973ff.chunk.js",
     "static/js/2.7d2973ff.chunk.js.map": "/static/js/2.7d2973ff.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.246eb5d8.chunk.css.map": "/static/css/main.246eb5d8.chunk.css.map",
+    "static/css/main.1c630578.chunk.css.map": "/static/css/main.1c630578.chunk.css.map",
     "static/js/2.7d2973ff.chunk.js.LICENSE.txt": "/static/js/2.7d2973ff.chunk.js.LICENSE.txt",
     "static/media/EricWest.f9ba65fb.png": "/static/media/EricWest.f9ba65fb.png",
     "static/media/Eric_West_Amida_Lead_Dev_Recommendation_letter.80bfe197.pdf": "/static/media/Eric_West_Amida_Lead_Dev_Recommendation_letter.80bfe197.pdf",
@@ -17,6 +17,7 @@
     "static/media/Mike_Hiner_Amida_CTO_Recommendation_letter.451e7e92.pdf": "/static/media/Mike_Hiner_Amida_CTO_Recommendation_letter.451e7e92.pdf",
     "static/media/Timothy_Jackreece_Resume.e0e42d8d.pdf": "/static/media/Timothy_Jackreece_Resume.e0e42d8d.pdf",
     "static/media/af.ec00a3cc.png": "/static/media/af.ec00a3cc.png",
+    "static/media/Home.css": "/static/media/background.76566296.png",
     "static/media/chah.aca2b8ca.png": "/static/media/chah.aca2b8ca.png",
     "static/media/plndi.c5faf7e8.png": "/static/media/plndi.c5faf7e8.png",
     "static/media/rsn.0d3f8fb9.png": "/static/media/rsn.0d3f8fb9.png",
@@ -26,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.cb903f2f.js",
     "static/js/2.7d2973ff.chunk.js",
-    "static/css/main.246eb5d8.chunk.css",
+    "static/css/main.1c630578.chunk.css",
     "static/js/main.427332f1.chunk.js"
   ]
 }
