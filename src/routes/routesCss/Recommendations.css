@@ -1,0 +1,865 @@
+.RecommendationsDiv {
+  background-color: snow;
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.recommendTitle {
+  font-size: 2rem;
+  margin: 2rem auto;
+  text-decoration: underline;
+  text-align: center;
+}
+.Recommendations {
+  background-color: snow;
+  width: 95%;
+  margin: 1rem auto;
+}
+.mikeHiner {
+  width: 30%;
+  line-height: 1.2;
+}
+.ericWest {
+  width: 30%;
+  line-height: 1.2;
+}
+.letterName {
+  font-size: 1.3rem;
+  width: 100%;
+}
+.position {
+  font-size: 1.3rem;
+  width: 100%;
+}
+.company {
+  font-size: 1.3rem;
+  width: 100%;
+}
+.letterLink {
+  margin-top: 1rem;
+}
+.btnletterLink {
+  width: auto;
+  color: white;
+  background-color: #333;
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+  border-radius: 10px;
+  padding: 10px 5px;
+}
+.btnletterLink:hover {
+  color: snow;
+  background-color: #ff8484;
+}
+.RecommendationsContainer {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  height: 100%;
+  justify-content: space-evenly;
+  margin: 2rem auto;
+}
+.sitc {
+  width: 45%;
+  text-align: center;
+  height: 100%;
+  margin: 0.5rem auto;
+}
+.af {
+  width: 45%;
+  text-align: center;
+  height: 100%;
+  margin: 0.5rem auto;
+}
+.chah {
+  width: 45%;
+  text-align: center;
+  height: 100%;
+  margin: 0.5rem auto;
+}
+.PLNDI {
+  width: 45%;
+  text-align: center;
+  height: 100%;
+  margin: 0.5rem auto;
+}
+.rsn {
+  width: 45%;
+  text-align: center;
+  height: 100%;
+  margin: 0.5rem auto;
+}
+.siteImageDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.siteImage {
+  width: 100%;
+  margin: auto;
+  border: 3px solid #ff8484;
+}
+.description {
+}
+.siteLink {
+  text-decoration: none;
+  color: black;
+  margin: 2rem 0 0 0;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: #ff8484;
+  padding: 0.3rem;
+  border: 1px solid black;
+  border-radius: 1rem;
+}
+.schoolInTheClouds {
+  width: 50vw;
+
+  height: 100%;
+
+  margin: auto 2rem;
+}
+
+.anywhereFitnesss {
+  width: 50vw;
+
+  height: 100%;
+
+  margin: auto 2rem;
+}
+
+.caringHands {
+  width: 50vw;
+  height: 100%;
+  margin: auto 2rem;
+}
+
+.potluck {
+  width: 50vw;
+  height: 100%;
+  margin: auto 2rem;
+}
+
+.restaurantScout {
+  width: 50vw;
+  height: 100%;
+  margin: auto 2rem;
+}
+.siteName {
+  font-size: 1.8rem;
+  margin: 0.5rem auto;
+  color: #ff8484;
+}
+
+.languagesDisplayedPtag {
+  display: flex;
+  width: 100%;
+  margin: 0.5rem auto;
+}
+
+.skill1 {
+  color: black;
+  margin: 0 1rem 0 0;
+  padding-right: 1rem;
+  font-weight: 400;
+  border-right: #ff8484 solid 2px;
+}
+.alsoRecommendations {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .RecommendationsDiv {
+    background-color: snow;
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .Recommendations {
+    background-color: snow;
+    width: 95%;
+    margin: 1rem auto;
+  }
+  .RecommendationsContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+    margin: 2rem auto;
+  }
+  .sitc {
+    width: 45vw;
+    text-align: center;
+    margin: 0.5rem auto;
+  }
+  .af {
+    width: 45vw;
+    text-align: center;
+    margin: 0.5rem auto;
+  }
+  .chah {
+    width: 45vw;
+    text-align: center;
+    margin: 0.5rem auto;
+  }
+  .PLNDI {
+    width: 45vw;
+    text-align: center;
+    margin: 0.5rem auto;
+  }
+  .rsn {
+    width: 45vw;
+    text-align: center;
+    margin: 0.5rem auto;
+  }
+  .siteImageDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .siteImage {
+    width: 100%;
+    margin: auto;
+    border: 3px solid #ff8484;
+  }
+  .description {
+    margin: 0.5rem auto 1rem auto;
+    line-height: 2;
+  }
+  .description1 {
+    margin: 0.5rem 10rem;
+    line-height: 2;
+    text-align: center;
+  }
+  .siteLink {
+    text-decoration: none;
+    color: black;
+    margin: 2rem 0 0 0;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: #ff8484;
+    padding: 0.3rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+  }
+  .schoolInTheClouds {
+    width: 40vw;
+    height: 100%;
+    margin: auto 2rem;
+  }
+
+  .anywhereFitnesss {
+    width: 40vw;
+    height: 100%;
+    margin: auto 2rem;
+  }
+
+  .caringHands {
+    width: 40vw;
+    height: 100%;
+    margin: auto 2rem;
+  }
+
+  .potluck {
+    width: 40vw;
+    height: 100%;
+    margin: auto 2rem;
+  }
+
+  .restaurantScout {
+    width: 40vw;
+    height: 100%;
+    margin: auto 2rem;
+  }
+  .siteName {
+    font-size: 1.5rem;
+    margin: 0.5rem auto;
+    color: #ff8484;
+  }
+
+  .languagesDisplayedPtag {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 100%;
+    margin: 0.5rem auto;
+  }
+
+  .skill1 {
+    color: black;
+    margin: 0.5rem 0.5rem 0 0;
+    padding-right: 1rem;
+    font-weight: 400;
+    font-size: 1rem;
+    border-right: #ff8484 solid 2px;
+  }
+  .alsoRecommendations {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  .RecommendationsDiv {
+    background-color: snow;
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .Recommendations {
+    background-color: snow;
+    width: 95%;
+    margin: 1rem auto;
+  }
+  .RecommendationsContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+    margin: 2rem auto;
+  }
+  .sitc {
+    width: 45vw;
+    text-align: center;
+    margin: 0.5rem auto;
+  }
+  .af {
+    width: 45vw;
+    text-align: center;
+    margin: 0.5rem auto;
+  }
+  .chah {
+    width: 45vw;
+    text-align: center;
+    margin: 0.5rem auto;
+  }
+  .PLNDI {
+    width: 45vw;
+    text-align: center;
+    margin: 0.5rem auto;
+  }
+  .rsn {
+    width: 45vw;
+    text-align: center;
+    margin: 0.5rem auto;
+  }
+  .siteImageDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .siteImage {
+    width: 100%;
+    margin: auto;
+    border: 3px solid #ff8484;
+  }
+  .description {
+    margin: 0.5rem auto 1rem auto;
+    line-height: 2;
+  }
+  .description1 {
+    margin: 0.5rem 10rem;
+    line-height: 2;
+    text-align: center;
+  }
+  .siteLink {
+    text-decoration: none;
+    color: black;
+    margin: 2rem 0 0 0;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: #ff8484;
+    padding: 0.3rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+  }
+  .schoolInTheClouds {
+    width: 40vw;
+    height: 100%;
+    margin: auto 2rem;
+  }
+
+  .anywhereFitnesss {
+    width: 40vw;
+    height: 100%;
+    margin: auto 2rem;
+  }
+
+  .caringHands {
+    width: 40vw;
+    height: 100%;
+    margin: auto 2rem;
+  }
+
+  .potluck {
+    width: 40vw;
+    height: 100%;
+    margin: auto 2rem;
+  }
+
+  .restaurantScout {
+    width: 40vw;
+    height: 100%;
+    margin: auto 2rem;
+  }
+  .siteName {
+    font-size: 1.5rem;
+    margin: 0.5rem auto;
+    color: #ff8484;
+  }
+
+  .languagesDisplayedPtag {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 100%;
+    margin: 0.5rem auto;
+  }
+
+  .skill1 {
+    color: black;
+    margin: 0.5rem 0.5rem 0 0;
+    padding-right: 1rem;
+    font-weight: 400;
+    font-size: 1rem;
+    border-right: #ff8484 solid 2px;
+  }
+  .alsoRecommendations {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 425px) {
+  .RecommendationsDiv {
+    background-color: snow;
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .Recommendations {
+    background-color: snow;
+    width: 95%;
+    margin: 1rem auto;
+  }
+  .RecommendationsContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+    margin: 2rem auto;
+  }
+  .sitc {
+    width: 100%;
+    text-align: center;
+    margin: 0.5rem auto;
+  }
+  .af {
+    width: 100%;
+    text-align: center;
+    margin: 0.5rem auto;
+  }
+  .chah {
+    width: 100%;
+    text-align: center;
+    margin: 0.5rem auto;
+  }
+  .PLNDI {
+    width: 100%;
+    text-align: center;
+    margin: 0.5rem auto;
+  }
+  .rsn {
+    width: 100%;
+    text-align: center;
+    margin: 0.5rem auto;
+  }
+  .siteImageDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .siteImage {
+    width: 100%;
+    margin: auto;
+    border: 3px solid #ff8484;
+  }
+  .description {
+    margin: 0.5rem 2rem;
+    line-height: 2;
+  }
+  .description1 {
+    margin: 0.5rem 2rem;
+    line-height: 2;
+    text-align: center;
+  }
+  .siteLink {
+    text-decoration: none;
+    color: black;
+    margin: 2rem 0 0 0;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: #ff8484;
+    padding: 0.3rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+  }
+  .schoolInTheClouds {
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    margin: auto;
+  }
+
+  .anywhereFitnesss {
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    margin: auto;
+  }
+
+  .caringHands {
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    margin: auto;
+  }
+
+  .potluck {
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    margin: auto;
+  }
+
+  .restaurantScout {
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    margin: auto;
+  }
+  .siteName {
+    font-size: 1.8rem;
+    margin: 0.5rem auto;
+    color: #ff8484;
+  }
+
+  .languagesDisplayedPtag {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .skill1 {
+    color: black;
+    margin: 0.5rem 0.5rem 0 0;
+    padding-right: 1rem;
+    font-weight: 400;
+    text-align: center;
+    font-size: 1rem;
+    border-right: #ff8484 solid 2px;
+  }
+  .alsoRecommendations {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 375px) {
+  .RecommendationsDiv {
+    background-color: snow;
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .Recommendations {
+    background-color: snow;
+    width: 95%;
+    margin: 1rem auto;
+  }
+  .RecommendationsContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+    margin: 2rem auto;
+  }
+  .sitc {
+    width: 100%;
+    text-align: center;
+    margin: 0.5rem auto;
+  }
+  .af {
+    width: 100%;
+    text-align: center;
+    margin: 0.5rem auto;
+  }
+  .chah {
+    width: 100%;
+    text-align: center;
+    margin: 0.5rem auto;
+  }
+  .PLNDI {
+    width: 100%;
+    text-align: center;
+    margin: 0.5rem auto;
+  }
+  .rsn {
+    width: 100%;
+    text-align: center;
+    margin: 0.5rem auto;
+  }
+  .siteImageDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .siteImage {
+    width: 100%;
+    margin: auto;
+    border: 3px solid #ff8484;
+  }
+  .description {
+    margin: 0.5rem 2rem;
+    line-height: 2;
+  }
+  .description1 {
+    margin: 0.5rem 2rem;
+    line-height: 2;
+    text-align: center;
+  }
+  .siteLink {
+    text-decoration: none;
+    color: black;
+    margin: 2rem 0 0 0;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: #ff8484;
+    padding: 0.3rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+  }
+  .schoolInTheClouds {
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    margin: auto;
+  }
+
+  .anywhereFitnesss {
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    margin: auto;
+  }
+
+  .caringHands {
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    margin: auto;
+  }
+
+  .potluck {
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    margin: auto;
+  }
+
+  .restaurantScout {
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    margin: auto;
+  }
+  .siteName {
+    font-size: 1.8rem;
+    margin: 0.5rem auto;
+    color: #ff8484;
+  }
+
+  .languagesDisplayedPtag {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .skill1 {
+    color: black;
+    margin: 0.5rem 0.5rem 0 0;
+    padding-right: 1rem;
+    font-weight: 400;
+    text-align: center;
+    font-size: 1rem;
+    border-right: #ff8484 solid 2px;
+  }
+  .alsoRecommendations {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 320px) {
+  .RecommendationsDiv {
+    background-color: snow;
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .Recommendations {
+    background-color: snow;
+    width: 95%;
+    margin: 1rem auto;
+  }
+  .RecommendationsContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+    margin: 2rem auto;
+  }
+  .sitc {
+    width: 100%;
+    text-align: center;
+    margin: 0.5rem auto;
+  }
+  .af {
+    width: 100%;
+    text-align: center;
+    margin: 0.5rem auto;
+  }
+  .chah {
+    width: 100%;
+    text-align: center;
+    margin: 0.5rem auto;
+  }
+  .PLNDI {
+    width: 100%;
+    text-align: center;
+    margin: 0.5rem auto;
+  }
+  .rsn {
+    width: 100%;
+    text-align: center;
+    margin: 0.5rem auto;
+  }
+  .siteImageDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .siteImage {
+    width: 100%;
+    margin: auto;
+    border: 3px solid #ff8484;
+  }
+  .description {
+    margin: 0.5rem 2rem;
+    line-height: 2;
+  }
+  .description1 {
+    margin: 0.5rem 2rem;
+    line-height: 2;
+    text-align: center;
+  }
+  .siteLink {
+    text-decoration: none;
+    color: black;
+    margin: 2rem 0 0 0;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: #ff8484;
+    padding: 0.3rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+  }
+  .schoolInTheClouds {
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    margin: auto;
+  }
+
+  .anywhereFitnesss {
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    margin: auto;
+  }
+
+  .caringHands {
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    margin: auto;
+  }
+
+  .potluck {
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    margin: auto;
+  }
+
+  .restaurantScout {
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    margin: auto;
+  }
+  .siteName {
+    font-size: 1.8rem;
+    margin: 0.5rem auto;
+    color: #ff8484;
+  }
+
+  .languagesDisplayedPtag {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .skill1 {
+    color: black;
+    margin: 0.5rem 0.5rem 0 0;
+    padding-right: 1rem;
+    font-weight: 400;
+    text-align: center;
+    font-size: 1rem;
+    border-right: #ff8484 solid 2px;
+  }
+  .alsoRecommendations {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+}

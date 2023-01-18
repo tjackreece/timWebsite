@@ -1,64 +1,63 @@
 .aboutMeText {
-	box-shadow: 5px 5px 5px grey;
-	border-radius: 50% 20% / 10% 15%;
-	width: 95%;
-	color: black;
-	margin: 2rem auto;
-	/* border: 1px solid black; */
-	padding: 1rem;
-	position: relative;
-	box-sizing: border-box;
+  width: 95%;
+  color: black;
+  margin: 2rem auto;
+  height: auto;
+  /* border: 1px solid black; */
+  padding: 1rem;
+  position: relative;
+  box-sizing: border-box;
 }
 .aboutMeText h1 {
-	opacity: 100%;
-	/* background-color: blue; */
-	font-size: 3rem;
-	text-decoration: underline;
-	margin: 1rem 2rem;
-	text-decoration-style: dotted;
-	text-decoration-color: white;
+  opacity: 100%;
+  /* background-color: blue; */
+  font-size: 3rem;
+  text-decoration: underline;
+  margin: 1rem 2rem;
+  text-decoration-style: dotted;
+  text-decoration-color: white;
 }
 
 .aboutMeTexth2 {
-	/* background-color: green; */
-	margin: 1rem 2rem;
-	font-size: 1.2rem;
+  /* background-color: green; */
+  margin: 1rem 2rem;
+  font-size: 1.2rem;
 }
 .timothy {
 }
 .aboutMeText p {
-	/* background-color: red; */
+  /* background-color: red; */
 
-	margin: auto 2rem;
-	font-size: 1rem;
-	line-height: 1.8;
+  margin: auto 2rem;
+  font-size: 20px;
+  line-height: 1.8;
 }
 .aboutMeText img {
-	margin: 1rem 2rem;
+  margin: 1rem 2rem;
 }
 .webDeveloper {
-	color: #ff8484;
+  color: #ff8484;
 }
 .webDeveloper:hover {
-	color: #333;
+  color: #333;
 }
 .aboutMeLinks {
-	text-align: center;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 .aboutMeLinks a {
-	text-decoration: none;
-	font-size: 1.3rem;
-	color: #ff8484;
-	border-radius: 10px;
-	border: 1px solid snow;
-	padding: 5px 3px;
-	background-color: black;
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: #ff8484;
+  border-radius: 10px;
+  border: 1px solid snow;
+  padding: 5px 3px;
+  background-color: black;
 }
 .aboutMeLinks a:hover {
-	color: snow;
+  color: snow;
 }
 
 #buillding {
@@ -68,358 +67,358 @@
 #office {
 }
 @media screen and (max-width: 1024px) {
-	.aboutMeText {
-		box-shadow: 5px 5px 5px grey;
-		border-radius: 50% 20% / 10% 15%;
-		width: 95%;
-		color: black;
-		margin: 2rem auto;
-		/* border: 1px solid black; */
-		padding: 1rem;
-		position: relative;
-		box-sizing: border-box;
-	}
-	.aboutMeText h1 {
-		opacity: 100%;
-		/* background-color: blue; */
-		font-size: 3rem;
-		text-decoration: underline;
-		margin: 1rem 2rem;
-		text-decoration-style: dotted;
-		text-decoration-color: white;
-	}
+  .aboutMeText {
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 50% 20% / 10% 15%;
+    width: 95%;
+    color: black;
+    margin: 2rem auto;
+    /* border: 1px solid black; */
+    padding: 1rem;
+    position: relative;
+    box-sizing: border-box;
+  }
+  .aboutMeText h1 {
+    opacity: 100%;
+    /* background-color: blue; */
+    font-size: 3rem;
+    text-decoration: underline;
+    margin: 1rem 2rem;
+    text-decoration-style: dotted;
+    text-decoration-color: white;
+  }
 
-	.aboutMeTexth2 {
-		/* background-color: green; */
-		margin: 1rem 2rem;
-		font-size: 1.2rem;
-	}
-	.timothy {
-	}
-	.aboutMeText p {
-		/* background-color: red; */
+  .aboutMeTexth2 {
+    /* background-color: green; */
+    margin: 1rem 2rem;
+    font-size: 1.2rem;
+  }
+  .timothy {
+  }
+  .aboutMeText p {
+    /* background-color: red; */
 
-		margin: auto 2rem;
-		font-size: 1rem;
-		line-height: 1.8;
-	}
-	.aboutMeText img {
-		margin: 1rem 2rem;
-	}
-	.webDeveloper {
-		color: #ff8484;
-	}
-	.webDeveloper:hover {
-		color: #333;
-	}
-	.aboutMeLinks {
-		text-align: center;
-		display: flex;
-		flex-direction: row;
-		justify-content: space-evenly;
-	}
-	.aboutMeLinks a {
-		text-decoration: none;
-		font-size: 1.3rem;
-		color: #ff8484;
-		border-radius: 10px;
-		border: 1px solid snow;
-		padding: 5px 3px;
-		background-color: black;
-	}
-	.aboutMeLinks a:hover {
-		color: snow;
-	}
+    margin: auto 2rem;
+    font-size: 1rem;
+    line-height: 1.8;
+  }
+  .aboutMeText img {
+    margin: 1rem 2rem;
+  }
+  .webDeveloper {
+    color: #ff8484;
+  }
+  .webDeveloper:hover {
+    color: #333;
+  }
+  .aboutMeLinks {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .aboutMeLinks a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #ff8484;
+    border-radius: 10px;
+    border: 1px solid snow;
+    padding: 5px 3px;
+    background-color: black;
+  }
+  .aboutMeLinks a:hover {
+    color: snow;
+  }
 
-	#buillding {
-	}
-	#box {
-	}
-	#office {
-	}
+  #buillding {
+  }
+  #box {
+  }
+  #office {
+  }
 }
 @media screen and (max-width: 768px) {
-	.aboutMeText {
-		box-shadow: 5px 5px 5px grey;
-		border-radius: 50% 20% / 10% 15%;
-		width: 90%;
-		color: black;
-		margin: 2rem auto;
-		/* border: 1px solid black; */
-		padding: 1rem;
-		position: relative;
-		box-sizing: border-box;
-	}
-	.aboutMeText h1 {
-		opacity: 100%;
-		/* background-color: blue; */
-		font-size: 2.2rem;
-		text-decoration: underline;
-		margin: 1rem 2rem;
-		text-decoration-style: dotted;
-		text-decoration-color: white;
-	}
+  .aboutMeText {
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 50% 20% / 10% 15%;
+    width: 90%;
+    color: black;
+    margin: 2rem auto;
+    /* border: 1px solid black; */
+    padding: 1rem;
+    position: relative;
+    box-sizing: border-box;
+  }
+  .aboutMeText h1 {
+    opacity: 100%;
+    /* background-color: blue; */
+    font-size: 2.2rem;
+    text-decoration: underline;
+    margin: 1rem 2rem;
+    text-decoration-style: dotted;
+    text-decoration-color: white;
+  }
 
-	.aboutMeTexth2 {
-		/* background-color: green; */
-		margin: 1rem 2rem;
-		font-size: 1.2rem;
-	}
-	.timothy {
-	}
-	.aboutMeText p {
-		/* background-color: red; */
+  .aboutMeTexth2 {
+    /* background-color: green; */
+    margin: 1rem 2rem;
+    font-size: 1.2rem;
+  }
+  .timothy {
+  }
+  .aboutMeText p {
+    /* background-color: red; */
 
-		margin: auto 2rem;
-		font-size: 1rem;
-		line-height: 1.8;
-	}
-	.aboutMeText img {
-		margin: 1rem 2rem;
-	}
-	.webDeveloper {
-		color: #ff8484;
-	}
-	.webDeveloper:hover {
-		color: #333;
-	}
-	.aboutMeLinks {
-		text-align: center;
-		display: flex;
-		flex-direction: row;
-		justify-content: space-evenly;
-	}
-	.aboutMeLinks a {
-		text-decoration: none;
-		font-size: 1.3rem;
-		color: #ff8484;
-		border-radius: 10px;
-		border: 1px solid snow;
-		padding: 5px 3px;
-		background-color: black;
-	}
-	.aboutMeLinks a:hover {
-		color: snow;
-	}
+    margin: auto 2rem;
+    font-size: 1rem;
+    line-height: 1.8;
+  }
+  .aboutMeText img {
+    margin: 1rem 2rem;
+  }
+  .webDeveloper {
+    color: #ff8484;
+  }
+  .webDeveloper:hover {
+    color: #333;
+  }
+  .aboutMeLinks {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .aboutMeLinks a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #ff8484;
+    border-radius: 10px;
+    border: 1px solid snow;
+    padding: 5px 3px;
+    background-color: black;
+  }
+  .aboutMeLinks a:hover {
+    color: snow;
+  }
 
-	#buillding {
-	}
-	#box {
-	}
-	#office {
-	}
+  #buillding {
+  }
+  #box {
+  }
+  #office {
+  }
 }
 @media screen and (max-width: 425px) {
-	.aboutMeText {
-		box-shadow: 5px 5px 5px grey;
-		border-radius: 0;
-		width: 100%;
-		color: black;
-		margin: 0rem auto;
-		/* border: 1px solid black; */
-		padding: 1rem;
-		position: relative;
-		box-sizing: border-box;
-	}
-	.aboutMeText h1 {
-		opacity: 100%;
-		/* background-color: blue; */
-		font-size: 1.8rem;
-		text-decoration: underline;
-		margin: 1rem;
-		text-decoration-style: dotted;
-		text-decoration-color: white;
-	}
+  .aboutMeText {
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 0;
+    width: 100%;
+    color: black;
+    margin: 0rem auto;
+    /* border: 1px solid black; */
+    padding: 1rem;
+    position: relative;
+    box-sizing: border-box;
+  }
+  .aboutMeText h1 {
+    opacity: 100%;
+    /* background-color: blue; */
+    font-size: 1.8rem;
+    text-decoration: underline;
+    margin: 1rem;
+    text-decoration-style: dotted;
+    text-decoration-color: white;
+  }
 
-	.aboutMeTexth2 {
-		/* background-color: green; */
-		margin: 1rem;
-		font-size: 1.2rem;
-	}
-	.timothy {
-	}
-	.aboutMeText p {
-		/* background-color: red; */
+  .aboutMeTexth2 {
+    /* background-color: green; */
+    margin: 1rem;
+    font-size: 1.2rem;
+  }
+  .timothy {
+  }
+  .aboutMeText p {
+    /* background-color: red; */
 
-		margin: auto 1rem;
-		font-size: 0.9rem;
-		line-height: 1.8;
-	}
-	.aboutMeText img {
-		margin: 1rem;
-	}
-	.webDeveloper {
-		color: #ff8484;
-	}
-	.webDeveloper:hover {
-		color: #333;
-	}
-	.aboutMeLinks {
-		text-align: center;
-		display: flex;
-		flex-direction: row;
-		justify-content: space-evenly;
-	}
-	.aboutMeLinks a {
-		text-decoration: none;
-		font-size: 1.3rem;
-		color: #ff8484;
-		border-radius: 10px;
-		border: 1px solid snow;
-		padding: 5px 3px;
-		background-color: black;
-	}
-	.aboutMeLinks a:hover {
-		color: snow;
-	}
+    margin: auto 1rem;
+    font-size: 0.9rem;
+    line-height: 1.8;
+  }
+  .aboutMeText img {
+    margin: 1rem;
+  }
+  .webDeveloper {
+    color: #ff8484;
+  }
+  .webDeveloper:hover {
+    color: #333;
+  }
+  .aboutMeLinks {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .aboutMeLinks a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #ff8484;
+    border-radius: 10px;
+    border: 1px solid snow;
+    padding: 5px 3px;
+    background-color: black;
+  }
+  .aboutMeLinks a:hover {
+    color: snow;
+  }
 
-	#buillding {
-	}
-	#box {
-	}
-	#office {
-	}
+  #buillding {
+  }
+  #box {
+  }
+  #office {
+  }
 }
 @media screen and (max-width: 375px) {
-	.aboutMeText {
-		box-shadow: 5px 5px 5px grey;
-		border-radius: 0;
-		width: 100%;
-		color: black;
-		margin: 1rem 0;
-		/* border: 1px solid black; */
-		padding: 1rem;
-		position: relative;
-		box-sizing: border-box;
-	}
-	.aboutMeText h1 {
-		opacity: 100%;
-		/* background-color: blue; */
-		font-size: 1.8rem;
-		text-decoration: underline;
-		margin: 0.5rem;
-		text-decoration-style: dotted;
-		text-decoration-color: white;
-	}
+  .aboutMeText {
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 0;
+    width: 100%;
+    color: black;
+    margin: 1rem 0;
+    /* border: 1px solid black; */
+    padding: 1rem;
+    position: relative;
+    box-sizing: border-box;
+  }
+  .aboutMeText h1 {
+    opacity: 100%;
+    /* background-color: blue; */
+    font-size: 1.8rem;
+    text-decoration: underline;
+    margin: 0.5rem;
+    text-decoration-style: dotted;
+    text-decoration-color: white;
+  }
 
-	.aboutMeTexth2 {
-		/* background-color: green; */
-		margin: 0.5rem;
-		font-size: 1.2rem;
-	}
-	.timothy {
-	}
-	.aboutMeText p {
-		/* background-color: red; */
+  .aboutMeTexth2 {
+    /* background-color: green; */
+    margin: 0.5rem;
+    font-size: 1.2rem;
+  }
+  .timothy {
+  }
+  .aboutMeText p {
+    /* background-color: red; */
 
-		margin: auto 0.5rem;
-		font-size: 1rem;
-		line-height: 1.8;
-	}
-	.aboutMeText img {
-		margin: 0.5rem;
-	}
-	.webDeveloper {
-		color: #ff8484;
-	}
-	.webDeveloper:hover {
-		color: #333;
-	}
-	.aboutMeLinks {
-		text-align: center;
-		display: flex;
-		flex-direction: row;
-		justify-content: space-evenly;
-	}
-	.aboutMeLinks a {
-		text-decoration: none;
-		font-size: 1.3rem;
-		color: #ff8484;
-		border-radius: 10px;
-		border: 1px solid snow;
-		padding: 5px 3px;
-		background-color: black;
-	}
-	.aboutMeLinks a:hover {
-		color: snow;
-	}
+    margin: auto 0.5rem;
+    font-size: 1rem;
+    line-height: 1.8;
+  }
+  .aboutMeText img {
+    margin: 0.5rem;
+  }
+  .webDeveloper {
+    color: #ff8484;
+  }
+  .webDeveloper:hover {
+    color: #333;
+  }
+  .aboutMeLinks {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .aboutMeLinks a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #ff8484;
+    border-radius: 10px;
+    border: 1px solid snow;
+    padding: 5px 3px;
+    background-color: black;
+  }
+  .aboutMeLinks a:hover {
+    color: snow;
+  }
 
-	#buillding {
-	}
-	#box {
-	}
-	#office {
-	}
+  #buillding {
+  }
+  #box {
+  }
+  #office {
+  }
 }
 @media screen and (max-width: 320px) {
-	.aboutMeText {
-		box-shadow: 5px 5px 5px grey;
-		border-radius: 0;
-		width: 100vw;
-		color: black;
-		margin: 2rem auto;
-		/* border: 1px solid black; */
-		padding: 1rem;
-		position: relative;
-		box-sizing: border-box;
-	}
-	.aboutMeText h1 {
-		opacity: 100%;
-		/* background-color: blue; */
-		font-size: 1.8rem;
-		text-decoration: underline;
-		margin: 1rem;
-		text-decoration-style: dotted;
-		text-decoration-color: white;
-	}
+  .aboutMeText {
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 0;
+    width: 100vw;
+    color: black;
+    margin: 2rem auto;
+    /* border: 1px solid black; */
+    padding: 1rem;
+    position: relative;
+    box-sizing: border-box;
+  }
+  .aboutMeText h1 {
+    opacity: 100%;
+    /* background-color: blue; */
+    font-size: 1.8rem;
+    text-decoration: underline;
+    margin: 1rem;
+    text-decoration-style: dotted;
+    text-decoration-color: white;
+  }
 
-	.aboutMeTexth2 {
-		/* background-color: green; */
-		margin: 1rem;
-		font-size: 1.2rem;
-	}
-	.timothy {
-	}
-	.aboutMeText p {
-		/* background-color: red; */
+  .aboutMeTexth2 {
+    /* background-color: green; */
+    margin: 1rem;
+    font-size: 1.2rem;
+  }
+  .timothy {
+  }
+  .aboutMeText p {
+    /* background-color: red; */
 
-		margin: auto 1rem;
-		font-size: 1rem;
-		line-height: 1.8;
-	}
-	.aboutMeText img {
-		margin: 1rem;
-	}
-	.webDeveloper {
-		color: #ff8484;
-		font-weight: bold;
-	}
-	.webDeveloper:hover {
-		color: #333;
-	}
-	.aboutMeLinks {
-		text-align: center;
-		display: flex;
-		flex-direction: row;
-		justify-content: space-evenly;
-	}
-	.aboutMeLinks a {
-		text-decoration: none;
-		font-size: 1.3rem;
-		color: #ff8484;
-		border-radius: 10px;
-		border: 1px solid snow;
-		padding: 5px 3px;
-		background-color: black;
-	}
-	.aboutMeLinks a:hover {
-		color: snow;
-	}
+    margin: auto 1rem;
+    font-size: 1rem;
+    line-height: 1.8;
+  }
+  .aboutMeText img {
+    margin: 1rem;
+  }
+  .webDeveloper {
+    color: #ff8484;
+    font-weight: bold;
+  }
+  .webDeveloper:hover {
+    color: #333;
+  }
+  .aboutMeLinks {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .aboutMeLinks a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #ff8484;
+    border-radius: 10px;
+    border: 1px solid snow;
+    padding: 5px 3px;
+    background-color: black;
+  }
+  .aboutMeLinks a:hover {
+    color: snow;
+  }
 
-	#buillding {
-	}
-	#box {
-	}
-	#office {
-	}
+  #buillding {
+  }
+  #box {
+  }
+  #office {
+  }
 }
